@@ -1,0 +1,241 @@
+.main {
+  display: flex;
+ 
+}
+.section-right{
+  width: 100%;
+  background:  #E5E5E5;
+  padding: 16px 32px;
+}
+.extra__information{
+  display: flex;
+  align-items: center;
+}
+.extra__information--text{
+  margin: 0 5px 0 0;
+}
+.information{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  background: #425DC7;
+  border-radius: 8px;
+  border: none;
+  padding: 16px 16px;
+  justify-content: space-between;
+}
+.information-left{
+  display: flex;
+}
+
+.information__icon {
+  margin-right: 22px;
+}
+.information__text{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.information__button{
+  width: 219px;
+  height: 40px;
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+  border-radius: 8px;
+}
+.information__button:hover{
+  background-color: #FFFFFF;
+  color: #425DC7;
+}
+.header__left--title{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;    
+  color: #000000;
+}
+.section__header--button{
+  overflow-x: scroll;
+}
+.nav__left--list{
+  display: flex;
+}
+
+.nav__button--date{
+  margin-right: 8px;
+  padding: 8px 16px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  height: 32px;
+
+  margin-right: 8px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #333333;
+
+}
+.nav__button-active, .nav__button--date:hover{
+  background: #425DC7;
+  color: #FFFFFF;
+}
+.nav__button--date--text{
+  margin-left: 6px;
+}
+.nav__button--date-icon{
+  margin-left: 6px;
+  
+}
+
+/*Extra Information */
+
+.extra__information {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.005em;
+  color: #555555;
+  margin-bottom: 16px;
+}
+
+.extra__information--text{
+  margin-bottom: 0;
+}
+.extra_information--span{
+  color: blue;
+}
+
+
+.dashboard{
+  background: #FFFFFF;
+  max-width: 1132px;
+  border-radius: 8px;
+  padding: 16px;
+  width: 100%;
+  
+  
+}
+
+.dashboard__header{
+  display: flex;
+  width: 296px;
+  height: 24px;
+  align-items: center;
+  margin: 16px 0 16px 0;
+ 
+}
+
+.dashboard__header--icon {
+ margin-right: 16px;
+}
+
+.dashboard__header--title{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+/*  nav dashboard   */
+
+.dashboard__nav {
+  display: flex;
+  width: 296px;
+  height: 35px;
+  border-bottom: 1px solid #EEEEEE;
+  margin-bottom: 16px;
+
+}
+
+.dashboard__nav--type{
+  height: 34px ;
+  align-self: flex-start;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px; 
+  letter-spacing: -0.005em;
+  color: #555555;
+  margin-right: 16px;
+}
+.dashboard__nav--type:hover{
+  border-bottom: 2px solid #425DC7; 
+  color:  #425DC7;
+}
+
+/*Dashboard cards*/
+.dashboard__cards{
+  display: flex;
+  width: 100%;
+  overflow-x: scroll;
+}
+.cards__list::-webkit-scrollbar, 
+.section__header--button::-webkit-scrollbar{
+    background: none;
+}
+.cards__list{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 46px;
+  overflow-x: scroll;
+}
+.card__item--button{
+  align-items: center;
+  display: flex;
+  width: 350px;
+  height: 72px;
+  background: #FFFFFF;
+  border: 2px solid #F1F2F9;
+  border-radius: 12px;
+  
+}
+.card__item--button:not(last-child){
+  margin-right: 16px;
+}
+.cards--icon{
+  padding: 8px;
+  background: #F1F2F9;
+  border-radius: 12px;
+  margin: 12px 16px 12px 12px;
+}
+
+.card--text{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.card__text--span1{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.005em;
+  color: #555555;
+}
+
+.card__text--span{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.005em;
+  color: #333333;
+}
+

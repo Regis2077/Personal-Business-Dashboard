@@ -1,0 +1,125 @@
+.main__login {
+    background: #FFFFFF;
+    border-radius: 8px;
+    left: 50%;
+    max-width: 328px;
+    padding: 32px 16px 16px 16px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.login-container{
+    background: #142159;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+/*  Header  */
+
+.container__header{
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.container__header--title {
+    color: #333333;
+    font-weight: 600;
+    font-size: 24px;
+    font-style: normal;
+    line-height: 32px;
+    text-align: center;
+}
+.container__header--subtitle {
+    color: #555555;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.005em;
+}
+
+
+/*Credential */
+
+.credential__password--hiden--off{
+    display: none;
+}
+
+.credential__erro{
+    align-items: flex-start;
+}
+
+
+.credential__email--input, .credential__password--input {
+    background: #FFFFFF;
+    border: 1px solid #555555;
+    border-radius: 8px;
+    box-sizing: border-box;
+    height: 48px;
+    margin-top: 8px;
+    padding: 16px 12px;
+    width: 296px;
+}
+
+.credential__password{
+    margin-top: 16px;
+    position: relative;
+}
+
+.credential__password--hiden {
+    align-items: center;
+    background: none;
+    border: none;
+    left: 85%;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+}
+
+.credential__button{
+    background: #425DC7;
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+    cursor: pointer;   
+    display: block;
+    padding: 12px 124px; 
+}
+
+/*    Checkbox    */
+
+.container__checkbox{
+    align-items: center;    
+    display: flex;
+    margin: 16px 0 24px 0;
+}
+
+.container__checkbox--check{
+    align-self: flex-start;
+    height: 20px;
+    margin: 0 8px 0 0;
+    width: 20px;
+}
+.container__checkbox--span {
+    color: #333333;
+    font-family: Inter;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: -0.005em;
+    line-height: 16px;
+    margin-right: 7px;     
+    width: 121px;
+}
+
+.container__checkbox--link {
+    color: #425DC7;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.005em;
+    text-decoration-line: underline;
+}

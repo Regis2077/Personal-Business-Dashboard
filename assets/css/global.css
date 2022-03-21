@@ -1,0 +1,10 @@
+@import url(./reset.css);
+@import url(../styles/login.css);
+@import url(../styles/header.css);
+@import url(../styles/sidebar.css);
+@import url(../styles/main.css);
+@import url(../styles/graph.css);
+@import url(../styles/table.css);
+@import url(./action.css);
+@import url(../styles/responsividade.css);
+@import url("https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.css");

@@ -1,0 +1,191 @@
+.graph__wrapper{
+  max-width: 1080px;
+  width: 100%;
+  height: 200px;
+}
+
+.graph__wrapper2{
+  max-width: 680px;
+  width: 100%;
+  height: 289px;
+}
+
+.dashboard2{
+  display: none;
+}
+.dashboard-3{
+  display: flex;
+  justify-content: space-between;
+}
+.dashboard-3--left{
+  width: 100%;
+}
+
+.legend, .legend__item{
+    display: flex;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #5B5C5F;
+  }
+  .legend__item:not(:last-child){
+      margin-right: 12px;
+     
+  }
+  
+
+  .legend__item--icon{
+    margin-right: 4px;
+  }
+
+  .reseller__name{  
+    width: 40px;
+  height: 40px;
+  text-align: center;
+  align-items: center;
+  border-radius: 50%;
+  background: #F1F2F9;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 39px;  
+  color: #425DC7;
+  margin-right: 16px;
+
+}
+.revendedores__item--span{
+  margin-right: 16px;
+}
+.revendores__item--pessoa-botton{
+  justify-content: space-between;
+}
+.item__pessoa--number{
+  margin-right: 4px;
+}
+.resellers__block--right{
+  width: 176px;
+}
+
+.resellers__botton{
+  border-top: 2px solid #F1F2F9;
+  width: 292px;
+  height: 65px;
+  padding-top: 25px;
+  justify-content: space-between;
+  display: flex;
+  margin-top: 24px;
+}
+.resellers__bottom--button{
+  border: 1.5px solid #425DC7;
+  border-radius: 8px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #425DC7;
+  padding: 0px 8px 0 8px;
+
+}
+
+
+.dropdown__graph{
+  background: #FFFFFF;
+  border-radius: 8px; 
+  width: 280px;
+  padding: 16px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.005em;
+  color: #333333;
+  margin-bottom: 24px ;
+}
+
+.revendedores{
+  width: 340px;
+  padding: 24px;    
+  background: #FFFFFF;
+  
+  border: 2px solid #F1F2F9;
+  box-sizing: border-box;
+  border-radius: 8px;
+  
+  
+}
+
+
+.revendedores__title{
+  width: 292px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  margin-bottom: 24px;
+}
+
+.hidden {
+  display: none;
+}
+
+
+.revendedores__item{
+  display: flex;
+  height: 49px;
+  align-items: center;
+  
+  
+}
+.revendores__item--pessoa-botton{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.revendores__item--pessoa-top{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.revendedores__list--section{
+  display: flex;
+}
+.item__pessoa--pedido{
+  font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.005em;
+
+/* Neutral/Low/Medium */
+
+color: #555555;
+}
+.item__pessoa--number{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.005em;
+  color: #158F2E;
+
+}

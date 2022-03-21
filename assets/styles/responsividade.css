@@ -1,0 +1,117 @@
+@media screen and (max-width: 1250px) {
+    .sidebar{
+        display: none;
+    }
+    .revel{
+        display: block;
+        position: absolute;
+        height: 1000px;
+        transition: .6s;
+        
+    }
+    .hamburguer {
+        display: block;
+    }z
+    .main{
+        width: 100%;
+    }
+    .dashboard-3{
+        display: block;
+        justify-content: '';
+      }
+      .revendores{
+          margin-top: 24px;
+      }
+}
+@media screen and (max-width: 850px) {
+ .information__button{
+     display: none;
+ }
+}
+
+@media screen and (max-width: 750px) {
+    .user__profile--text{
+        display: none;
+    }
+    .container__top--text::after{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        color: #333333;
+    }
+    .insides__table{
+        position: relative;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .products__table--tr{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    thead{
+        display: none;
+    }
+    .container__botton--number{
+        align-self: flex-start;
+        margin: 0;
+    }
+    .td2, .td3, .td4{
+        position: absolute;
+    }
+    .td2{
+        right: 64%;    
+    }
+    .td3{
+        right: 40%;    
+    }
+    .td4{
+        right: 0%;    
+    }
+   
+    .product-self{
+        padding: 0;
+    }
+}
+  
+
+
+
+
+@media screen and (max-width: 650px){
+   
+    .td4{
+        right: 0%;    
+    }
+    .user{
+        width: 112px
+    }
+}
+   
+    
+
+@media screen and (max-width: 500px) {
+    .td3 {
+        display: none;
+    }
+    .td2{
+        right: 40%;
+    }
+    .products__page{
+        display: flex;
+        flex-direction: column;
+    }
+    .td3{
+        display: none;
+    }
+    .product-self{
+        margin-bottom: 8px;
+    }
+    .header {
+        justify-content: '';
+    }
+    .company{
+        margin-left: 0;
+    }
+}
